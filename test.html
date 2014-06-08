@@ -1,1 +1,21 @@
-xx0 
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <script type="text/javascript" src="vendor/jquery/dist/jquery.js"></script>
+    <script type="text/javascript" src="vendor/handlebars/handlebars.js"></script>
+    <script type="text/javascript" src="vendor/ember/ember.js"></script>
+    <script type="text/javascript">
+        App=Em.Application.create();
+        App.ApplicationController=Em.ObjectController.extend({
+            name:'jwy'
+        });
+    </script>
+</head>
+<body>
+<script type="text/x-handlebars">
+    Hello,{{name}}
+</script>
+</body>
+</html>
